@@ -208,16 +208,17 @@
     <div class="navbar-nav mx-auto">
         <a href="/" class="nav-item nav-link active">Home</a>
         <a href="about" class="nav-item nav-link">About</a>
-        <a href="service" class="nav-item nav-link">Services</a>
         <div class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-            <div class="dropdown-menu fade-up m-0">
-                <a href="booking" class="dropdown-item">Booking</a>
-                <a href="team" class="dropdown-item">Technicians</a>
-                <a href="testimonial" class="dropdown-item">Testimonial</a>
-                <a href="404page" class="dropdown-item">404 Page</a>
-            </div>
-        </div>
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu fade-up m-0">
+                            <a href="consultation" class="dropdown-item">Consultation</a>
+                            <a href="design" class="dropdown-item">Design</a>
+                            <a href="build" class="dropdown-item">Build</a>
+                            <a href="service" class="dropdown-item">Our Services</a>
+                           
+                        </div>
+                    </div>
+                   
         <a href="contact" class="nav-item nav-link">Contact</a>
     </div>
     <div class="btn-container mt-5 mt-lg-0 px-4 d-flex align-items-center">

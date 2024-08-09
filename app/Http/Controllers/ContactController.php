@@ -16,8 +16,7 @@ class ContactController extends Controller
             'name' => 'required|string|max:255',
             'phone' => 'required|string|max:11|regex:/^\d+$/',
             'email' => 'required|email|max:255',
-            'concern' => 'required|string',
-            'specific_concern' => 'nullable|string', // Optional field
+       
             'message' => 'required|string',
         ]);
 
@@ -26,8 +25,7 @@ class ContactController extends Controller
             'name' => $request->input('name'),
             'phone' => $request->input('phone'),
             'email' => $request->input('email'),
-            'concern' => $request->input('concern'),
-            'specific_concern' => $request->input('specific_concern'), // Handle if included
+      
             'message' => $request->input('message'),
         ]);
 

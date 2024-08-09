@@ -13,8 +13,7 @@ class Contact extends Model
         'name',
         'phone',
         'email',
-        'concern',
-        'specific_concern', // Added this field
+        
         'message',
     ];
 }

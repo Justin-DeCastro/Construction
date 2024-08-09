@@ -81,25 +81,7 @@
         </div>
 
         <!-- Select Concern and Specific Concern side by side -->
-        <div class="col-md-6">
-            <div class="form-floating">
-                <select class="form-control" id="concern" placeholder="Concern" name="concern">
-                    <option value="" disabled selected>Select Concern</option>
-                    <option value="design">Design</option>
-                    <option value="consultation">Consultation</option>
-                    <option value="build">Build</option>
-                </select>
-                <label for="concern">Concern</label>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="form-floating">
-            <select class="form-control" id="specific-concern" name="specific_concern">
-    <option value="" disabled selected>Select Specific Concern</option>
-</select>
-                <label for="specific-concern">Specific Concern</label>
-            </div>
-        </div>
+        
 
         <!-- Message box spanning full width -->
         <div class="col-12">
