@@ -127,12 +127,11 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 py-5">
         <div class="container">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">Services</h1>
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Build</h1>
             <nav aria-label="breadcrumb" class="animated slideInDown">
-                <ol class="breadcrumb text-uppercase">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">Build</li>
+            <ol class="breadcrumb text-uppercase">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Building Your Vision with Precision and Passion</a></li>
+           
                 </ol>
             </nav>
         </div>
@@ -398,8 +397,6 @@
     <!-- Footer End -->
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
-
     <!-- JavaScript Libraries -->
     @include('Components.Script')
 </body>

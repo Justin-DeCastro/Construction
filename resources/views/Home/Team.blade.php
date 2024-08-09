@@ -25,12 +25,11 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 py-5">
         <div class="container">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">Technicians</h1>
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Team</h1>
             <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb text-uppercase">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">Technicians</li>
+            <ol class="breadcrumb text-uppercase">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Building Your Vision with Precision and Passion</a></li>
+           
                 </ol>
             </nav>
         </div>
@@ -200,7 +199,7 @@
  @include('Components.Footer')
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+    
 
 
     <!-- JavaScript Libraries -->

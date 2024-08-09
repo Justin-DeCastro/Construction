@@ -4,11 +4,13 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\AdminServices;
+use App\Models\Feedback;
 class HomeController extends Controller
 {
     public function home(){
+        $feedbacks = Feedback::all();
         $services = AdminServices::all();
-        return view("Home.Home",compact('services'));
+        return view("Home.Home",compact('services','feedbacks'));
     }
     public function about(){
         return view("Home.About");

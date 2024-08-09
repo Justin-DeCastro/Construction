@@ -61,7 +61,7 @@
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor
                                     at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea
                                     elitr.</p>
-                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#appointmentModal">
+                                    <button type="button"  class="btn btn-secondary py-md-3 px-md-5 animated slideInRight" data-toggle="modal" data-target="#appointmentModal">
   Schedule Appointment
 </button>
                                 <button type="button" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight"
@@ -89,7 +89,7 @@
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor
                                     at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea
                                     elitr.</p>
-                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#appointmentModal">
+                                    <button type="button" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight" data-toggle="modal" data-target="#appointmentModal">
   Schedule Appointment
 </button>
                                     <button type="button" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight"
@@ -117,7 +117,7 @@
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor
                                     at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea
                                     elitr.</p>
-                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#appointmentModal">
+                                    <button type="button"  class="btn btn-secondary py-md-3 px-md-5 animated slideInRight"data-toggle="modal" data-target="#appointmentModal">
   Schedule Appointment
 </button>
                                     <button type="button" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight"
@@ -144,8 +144,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-between bg-light p-4">
                         <h5 class="text-truncate me-3 mb-0">Residential Renovation</h5>
-                        <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0"
-                            href=""><i class="fa fa-arrow-right"></i></a>
+                        
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 service-item-top wow fadeInUp" data-wow-delay="0.3s">
@@ -154,8 +153,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-between bg-light p-4">
                         <h5 class="text-truncate me-3 mb-0">Commercial Renovation</h5>
-                        <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0"
-                            href=""><i class="fa fa-arrow-right"></i></a>
+                        
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 service-item-top wow fadeInUp" data-wow-delay="0.5s">
@@ -164,8 +162,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-between bg-light p-4">
                         <h5 class="text-truncate me-3 mb-0">Furniture Customization</h5>
-                        <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0"
-                            href=""><i class="fa fa-arrow-right"></i></a>
+                       
                     </div>
                 </div>
 
@@ -181,12 +178,12 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="text-secondary text-uppercase">About Us</h6>
-                    <h1 class="mb-4">We Are Trusted Construction Company Since ???</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam
+                    <h1 class="mb-4">Building Your Vision with Precision and Passion</h1>
+                    <!-- <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam
                         et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat
-                        amet</p>
+                        amet</p> -->
                     <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Residential &
-                        commercial plumbing</p>
+                        commercial </p>
                     <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Quality services at
                         affordable prices</p>
                     <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Immediate 24/ 7
@@ -317,11 +314,11 @@
                                 <h5 class="fw-bold mb-0">Full Name</h5>
                                 <small>Designation</small>
                             </div>
-                            <div class="bg-primary">
+                            <!-- <div class="bg-primary">
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -335,11 +332,11 @@
                                 <h5 class="fw-bold mb-0">Full Name</h5>
                                 <small>Designation</small>
                             </div>
-                            <div class="bg-primary">
+                            <!-- <div class="bg-primary">
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -353,11 +350,11 @@
                                 <h5 class="fw-bold mb-0">Full Name</h5>
                                 <small>Designation</small>
                             </div>
-                            <div class="bg-primary">
+                            <!-- <div class="bg-primary">
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -371,11 +368,11 @@
                                 <h5 class="fw-bold mb-0">Full Name</h5>
                                 <small>Designation</small>
                             </div>
-                            <div class="bg-primary">
+                            <!-- <div class="bg-primary">
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -517,75 +514,26 @@
                 <h1 class="mb-5">Our Clients Say!</h1>
             </div>
             <div class="owl-carousel testimonial-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
-                <div class="testimonial-item text-center">
-                    <div class="testimonial-text bg-light text-center p-4 mb-4">
-                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
-                            eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="Home/img/testimonial-1.jpg"
-                        style="width: 80px; height: 80px;">
-                    <div class="mb-2">
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                    </div>
-                    <h5 class="mb-1">Client Name</h5>
-                    <p class="m-0">Profession</p>
-                </div>
-                <div class="testimonial-item text-center">
-                    <div class="testimonial-text bg-light text-center p-4 mb-4">
-                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
-                            eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="Home/img/testimonial-2.jpg"
-                        style="width: 80px; height: 80px;">
-                    <div class="mb-2">
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                    </div>
-                    <h5 class="mb-1">Client Name</h5>
-                    <p class="m-0">Profession</p>
-                </div>
-                <div class="testimonial-item text-center">
-                    <div class="testimonial-text bg-light text-center p-4 mb-4">
-                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
-                            eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="Home/img/testimonial-3.jpg"
-                        style="width: 80px; height: 80px;">
-                    <div class="mb-2">
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                    </div>
-                    <h5 class="mb-1">Client Name</h5>
-                    <p class="m-0">Profession</p>
-                </div>
-                <div class="testimonial-item text-center">
-                    <div class="testimonial-text bg-light text-center p-4 mb-4">
-                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
-                            eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="Home/img/testimonial-4.jpg"
-                        style="width: 80px; height: 80px;">
-                    <div class="mb-2">
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                    </div>
-                    <h5 class="mb-1">Client Name</h5>
-                    <p class="m-0">Profession</p>
-                </div>
+    @foreach($feedbacks as $feedback)
+        <div class="testimonial-item text-center">
+            <div class="testimonial-text bg-light text-center p-4 mb-4">
+                <p class="mb-0">{{ $feedback->message }}</p>
             </div>
+            <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="images/user.png"
+                style="width: 80px; height: 80px;">
+            <div class="mb-2">
+                <small class="fa fa-star text-secondary"></small>
+                <small class="fa fa-star text-secondary"></small>
+                <small class="fa fa-star text-secondary"></small>
+                <small class="fa fa-star text-secondary"></small>
+                <small class="fa fa-star text-secondary"></small>
+            </div>
+            <h5 class="mb-1">{{ $feedback->fullname }}</h5>
+            <p class="m-0">{{ $feedback->profession }}</p>
+        </div>
+    @endforeach
+</div>
+
         </div>
     </div>
     <div class="modal fade" id="appointmentModals" tabindex="-1" role="dialog" aria-labelledby="appointmentModalLabel" aria-hidden="true">
@@ -666,6 +614,51 @@
       </div>
     </div>
   </div>
+</div>
+<div class="modal fade" id="inquireModal" tabindex="-1" aria-labelledby="appointmentModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="padding-top:80px">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="appointmentModalLabel">Request an Appointment</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="appointmentForm" action="{{ route('inquire.submit') }}" method="POST" enctype="multipart/form-data" onsubmit="submitForm(event)">
+                    @csrf
+                    <div class="mb-3">
+                        <label for="serviceTitle" class="form-label">Service Inquire</label>
+                        <input type="text" id="serviceTitle" name="service_inquire" class="form-control" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="date" class="form-label">Preferred Date</label>
+                        <input type="date" class="form-control" id="date" name="date" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="time" class="form-label">Preferred Time</label>
+                        <input type="time" class="form-control" id="time" name="time" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                    </div>
+                    
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
     <!-- Testimonial End -->
     <!-- <div class="modal fade" id="inquireModal" tabindex="-1" aria-labelledby="appointmentModalLabel" aria-hidden="true">
@@ -756,9 +749,7 @@
     @include('Components.Footer')
 
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i
-            class="bi bi-arrow-up"></i></a>
+
 
 
     <!-- JavaScript Libraries -->

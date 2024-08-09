@@ -25,10 +25,9 @@
         <div class="container">
             <h1 class="display-3 text-white mb-3 animated slideInDown">Contact Us</h1>
             <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb text-uppercase">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">Contact</li>
+            <ol class="breadcrumb text-uppercase">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Building Your Vision with Precision and Passion</a></li>
+           
                 </ol>
             </nav>
         </div>
@@ -40,10 +39,28 @@
         <div class="container">
             <div class="row g-4">
                 <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    
+                        
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.0839870059626!2d121.0325504!3d14.651173699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b6fdedfd13d9%3A0xb0fe4b0bfeca755a!2sVinia%20Residences%20by%20Filinvest!5e0!3m2!1sen!2sph!4v1723155735163!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <h6 class="text-secondary text-uppercase">Get In Touch</h6>
                     <h1 class="mb-4">Contact For Any Query</h1>
-                    <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.0839870059626!2d121.0325504!3d14.651173699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b6fdedfd13d9%3A0xb0fe4b0bfeca755a!2sVinia%20Residences%20by%20Filinvest!5e0!3m2!1sen!2sph!4v1723155735163!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p>
+  <a href="tel:0999 511 0645" class="m-0 text-decoration-none text-dark">
+    <i class="fas fa-phone-alt"></i> 0999 511 0645
+  </a>
+</p>
+<p>
+  <a href="mailto:info@ninerconstruction.com" class="m-0 text-decoration-none text-dark">
+    <i class="fas fa-envelope"></i> info@ninerconstruction.com
+  </a>
+</p>
+<p>
+  <a href="https://www.google.com/maps?q=Unit+519+Vinia+Residences,+EDSA,+Brgy.+Philam,+Quezon+City,+Philippines" target="_blank" class="m-0 text-decoration-none text-dark">
+    <i class="fas fa-map-marker-alt"></i> Unit 519 Vinia Residences, EDSA, Brgy. Philam, Quezon City, Philippines
+  </a>
+</p>
+
+
                 </div>
                 <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="bg-light p-5 h-100 d-flex align-items-center">
@@ -109,7 +126,7 @@
     @include('Components.Footer')
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
 
     <!-- JavaScript Libraries -->
     @include('Components.Script')

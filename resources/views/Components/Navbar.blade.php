@@ -130,10 +130,12 @@
         font-size: 2rem;
         font-weight: bold;
         color: #ff5722;
+        
     }
 
     .navbar-collapse {
         justify-content: center;
+        
     }
 
     .navbar-nav {
@@ -191,16 +193,48 @@
             width: 100%;
             /* Make buttons widen in mobile view */
         }
+		
 
     }
+	.floating-image {
+    position: fixed;
+    top: 190px; /* Adjust top position */
+    right: 20px; /* Adjust right position */
+    z-index: 2000;
+    width: auto; /* Allow for automatic width based on content */
+    height: auto; /* Allow for automatic height based on content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Center content horizontally and vertically */
+}
+
+.floating-image img {
+    width: 250px; /* Adjust width */
+    height: 170px; /* Adjust height to create an oval shape */
+    border-radius: 50%; /* Makes the image oval, though the ratio is more important here */
+}
+
+.floating-text {
+    position: absolute;
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    /* Remove background and border-radius */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center both ways */
+}
 </style>
 
 <body>
     <div class="container-fluid nav-bar bg-light">
         <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
-            <a href="" class="navbar-brand d-flex align-items-center m-0 p-0 ">
-                <h2 class="text-primary m-0">9.0 Niner Construction</h2>
-            </a>
+        <a href="" class="navbar-brand d-flex align-items-center m-0 p-0">
+    <img src="images/9.png" alt="Logo" class="mr-2" style="height: 80px;"> <!-- Adjust path and height as needed -->
+    <h2 class="text-primary m-0">9.0 Niner Construction</h2>
+</a>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
             </button>
@@ -220,32 +254,46 @@
                     </div>
                    
         <a href="contact" class="nav-item nav-link">Contact</a>
+        <a href="" class="nav-item nav-link">Download APp</a>
+    </div>
+	 <div class="floating-image">
+        <img src="Home/img/oval4.webp" alt="Construction Icon">
+        <div class="floating-text">Note Here</div>
     </div>
     <div class="btn-container mt-5 mt-lg-0 px-4 d-flex align-items-center">
         <!-- <button type="button" class="btn req btn-primary ml-auto" data-bs-toggle="modal"
             data-bs-target="#appointmentModal">
             Request an Appointment
         </button> -->
-        <button type="button" class="btn log btn-secondary ms-2" data-bs-toggle="modal"
-            data-bs-target="#loginModal">
-            Login
-        </button>
+        <a href="login" class="btn btn-secondary ms-2">
+    Login
+</a>
+
+
     </div>
 </div>
         </nav>
     </div>
 
     <div class="wrapper d-none d-md-flex">
-        <a class="social" href="https://www.facebook.com/profile.php?id=100090318514723"><i
-                class="fab fa-facebook fa-2x"></i></a>
-        <a class="social" href="https://x.com/AbicManpower">
-            <img src="Home/img/twitter.png" alt="X Logo" style="width: 32px; height: 32px;">
-        </a>
-        <a class="social" href="https://web.telegram.org/k/#7369565607" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-telegram fa-2x"></i>
-        </a>
-        <a class="social" href="#"><i class="fab fa-viber fa-2x"></i></a>
-    </div>
+    <a class="social" href="https://www.facebook.com/profile.php?id=100090318514723">
+        <i class="fab fa-facebook fa-2x"></i>
+    </a>
+    <a class="social" href="">
+        <img src="Home/img/twitter.png" alt="X Logo" style="width: 32px; height: 32px;">
+    </a>
+    <a class="social" href="https://www.instagram.com/ninerconstruction/" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-instagram fa-2x"></i>
+    </a>
+    <a class="social" href="#">
+        <i class="fab fa-viber fa-2x"></i>
+    </a>
+    <!-- Call Icon -->
+    <a class="social" href="tel: 0999 511 0645">
+        <i class="fas fa-phone fa-2x"></i>
+    </a>
+</div>
+
 
     <!-- Modal -->
     <div class="modal fade" id="appointmentModal" tabindex="-1" aria-labelledby="appointmentModalLabel"

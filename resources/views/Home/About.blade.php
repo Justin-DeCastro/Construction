@@ -28,9 +28,8 @@
             <h1 class="display-3 text-white mb-3 animated slideInDown">About Us</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb text-uppercase">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">About</li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Building Your Vision with Precision and Passion</a></li>
+           
                 </ol>
             </nav>
         </div>
@@ -158,11 +157,11 @@
                                 <h5 class="fw-bold mb-0">Full Name</h5>
                                 <small>Designation</small>
                             </div>
-                            <div class="bg-primary">
+                            <!-- <div class="bg-primary">
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -176,11 +175,11 @@
                                 <h5 class="fw-bold mb-0">Full Name</h5>
                                 <small>Designation</small>
                             </div>
-                            <div class="bg-primary">
+                            <!-- <div class="bg-primary">
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -194,11 +193,11 @@
                                 <h5 class="fw-bold mb-0">Full Name</h5>
                                 <small>Designation</small>
                             </div>
-                            <div class="bg-primary">
+                            <!-- <div class="bg-primary">
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -212,11 +211,11 @@
                                 <h5 class="fw-bold mb-0">Full Name</h5>
                                 <small>Designation</small>
                             </div>
-                            <div class="bg-primary">
+                            <!-- <div class="bg-primary">
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -231,7 +230,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
 
 
     <!-- JavaScript Libraries -->
