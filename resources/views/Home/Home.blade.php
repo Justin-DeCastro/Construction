@@ -217,9 +217,32 @@
     </div>
     <!-- About End -->
 
+    <div class="tp_app_wrapper" style="background-image: url('home/img/3.png'); background-size: cover; background-position: center;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="tp_app_data">
+                    <img src="images/app_logo.png" alt="logistic-app_logo" class="img-fluid">
+                    <h1>Download Construction App Free!</h1>
+                    <h2>Get Exciting Offers!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolor</p>
+                    <div class="tp_app_btns">
+                        <a href="#"><img src="images/app_logo1.png" alt="logistic-app_logo1" class="img-fluid"></a>
+                        <a href="#"><img src="images/app_logo2.png" alt="logistic-app_logo2" class="img-fluid"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="tp_app_mob">
+                    <img src="images/construction-mobile-application.png" alt="logistic-mobile" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
     <!-- Fact Start -->
-    <div class="container-fluid fact bg-dark my-5 py-5">
+    <!-- <div class="container-fluid fact bg-dark my-5 py-5">
         <div class="container">
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
@@ -244,7 +267,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Fact End -->
 
 
@@ -408,9 +431,13 @@
                             <input type="email" class="form-control" name="email_address" required maxlength="255">
                         </div>
                         <div class="col-12 col-md-6">
-                            <label for="phone_number" class="form-label">Phone Number</label>
-                            <input type="tel" class="form-control" name="phone_number" required maxlength="20">
-                        </div>
+    <label for="phone_number" class="form-label">Phone Number</label>
+    <div class="input-group">
+        <span class="input-group-text">+63</span>
+        <input type="tel" class="form-control" id="phone_number" name="phone_number" required maxlength="20">
+    </div>
+</div>
+
                         <!-- Row 2 -->
                         <div class="col-12 col-md-6">
                             <label for="category" class="form-label">What type of project?</label>
@@ -478,9 +505,13 @@
                         </div>
                         <!-- Row 5 -->
                         <div class="col-12 col-md-6">
-                            <label for="estimated_budget" class="form-label">Estimated/Expected Budget</label>
-                            <input type="text" class="form-control" name="estimated_budget" maxlength="255">
-                        </div>
+    <label for="estimated_budget" class="form-label">Estimated/Expected Budget</label>
+    <div class="input-group">
+        <span class="input-group-text">₱</span>
+        <input type="text" class="form-control" id="estimated_budget" name="estimated_budget" maxlength="255">
+    </div>
+</div>
+
                         <div class="col-12 col-md-6">
                             <label for="estimated_completion_date" class="form-label">Estimated Completion Date</label>
                             <input type="date" class="form-control" name="estimated_completion_date">

@@ -1,10 +1,11 @@
 <div class="container-fluid bg-light d-none d-lg-block">
     <div class="row align-items-center top-bar">
         <div class="col-lg-7 col-md-12 text-center text-lg-start">
-            <div class="h-100 d-inline-flex align-items-center me-6">
-                <i class="fa fa-map-marker-alt text-primary me-6"></i>
-                <p class="m-0">Unit 519 Vinia Residences EDSA, Brgy. Philam, Quezon City, Philippines</p>
-            </div>
+        <div class="h-100 d-inline-flex align-items-center me-6">
+    <i class="fa fa-map-marker-alt text-primary me-6"></i>
+    <p class="m-0">&nbsp;&nbsp;Unit 519 Vinia Residences EDSA, Brgy. Philam, Quezon City, Philippines</p>
+</div>
+
         </div>
         <div class="col-lg-5 col-md-12 text-end">
             <a href="https://maps.app.goo.gl/M1djPyw7viV7bGKh7" target="_blank" class="text-decoration-none">

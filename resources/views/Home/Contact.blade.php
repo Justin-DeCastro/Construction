@@ -36,90 +36,96 @@
 
     <!-- Contact Start -->
     <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    
-                        
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.0839870059626!2d121.0325504!3d14.651173699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b6fdedfd13d9%3A0xb0fe4b0bfeca755a!2sVinia%20Residences%20by%20Filinvest!5e0!3m2!1sen!2sph!4v1723155735163!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <h6 class="text-secondary text-uppercase">Get In Touch</h6>
-                    <h1 class="mb-4">Contact For Any Query</h1>
-                    <p>
-  <a href="tel:0999 511 0645" class="m-0 text-decoration-none text-dark">
-    <i class="fas fa-phone-alt"></i> 0999 511 0645
-  </a>
-</p>
-<p>
-  <a href="mailto:info@ninerconstruction.com" class="m-0 text-decoration-none text-dark">
-    <i class="fas fa-envelope"></i> info@ninerconstruction.com
-  </a>
-</p>
-<p>
-  <a href="https://www.google.com/maps?q=Unit+519+Vinia+Residences,+EDSA,+Brgy.+Philam,+Quezon+City,+Philippines" target="_blank" class="m-0 text-decoration-none text-dark">
-    <i class="fas fa-map-marker-alt"></i> Unit 519 Vinia Residences, EDSA, Brgy. Philam, Quezon City, Philippines
-  </a>
-</p>
-
-
-                </div>
-                <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="bg-light p-5 h-100 d-flex align-items-center">
+                <h6 class="text-secondary text-uppercase">Get In Touch</h6>
+                <h1 class="mb-4">Contact For Any Query</h1>
+                <p>
+                    <a href="tel:0999 511 0645" class="m-0 text-decoration-none text-dark">
+                        <i class="fas fa-phone-alt"></i> 0999 511 0645
+                    </a>
+                </p>
+                <p>
+                    <a href="mailto:info@ninerconstruction.com" class="m-0 text-decoration-none text-dark">
+                        <i class="fas fa-envelope"></i> info@ninerconstruction.com
+                    </a>
+                </p>
+                <p>
+                    <a href="https://www.google.com/maps?q=Unit+519+Vinia+Residences,+EDSA,+Brgy.+Philam,+Quezon+City,+Philippines" target="_blank" class="m-0 text-decoration-none text-dark">
+                        <i class="fas fa-map-marker-alt"></i> Unit 519 Vinia Residences, EDSA, Brgy. Philam, Quezon City, Philippines
+                    </a>
+                </p>
+            </div>
+            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="bg-light p-5 h-70 d-flex align-items-center">
                     <form id="appointmentForm" action="{{ route('contact.store') }}" method="POST" enctype="multipart/form-data">
                         @csrf
-    <div class="row g-3">
-        <!-- Your Name and Phone Number side by side -->
-        <div class="col-md-6">
-            <div class="form-floating">
-                <input type="text" class="form-control" id="name" name="name"placeholder="Your Name">
-                <label for="name">Your Name</label>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="form-floating">
-                <input 
-                    type="text" 
-                    class="form-control" 
-                    id="phone" 
-                    name="phone"
-                    placeholder="Your Phone Number" 
-                    maxlength="11" 
-                    pattern="\d*" 
-                    title="Please enter up to 11 digits only">
-                <label for="phone">Your Phone Number</label>
-            </div>
-        </div>
+                        <div class="row g-3">
+                            <!-- Your Name and Phone Number side by side -->
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input 
+                                        type="text" 
+                                        class="form-control" 
+                                        id="phone" 
+                                        name="phone"
+                                        placeholder="Your Phone Number" 
+                                        maxlength="11" 
+                                        pattern="\d*" 
+                                        title="Please enter up to 11 digits only">
+                                    <label for="phone">Your Phone Number</label>
+                                </div>
+                            </div>
 
-        <!-- Your Email alone on its row -->
-        <div class="col-12">
-            <div class="form-floating">
-                <input type="email" class="form-control" id="email" name="email"placeholder="Your Email">
-                <label for="email">Your Email</label>
-            </div>
-        </div>
+                            <!-- Your Email alone on its row -->
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
 
-        <!-- Select Concern and Specific Concern side by side -->
-        
+                            <!-- Message box spanning full width -->
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" name="message" id="message" style="height: 150px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            
+                            <!-- Submit button -->
+                            <div class="col-12">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                            </div>
 
-        <!-- Message box spanning full width -->
-        <div class="col-12">
-            <div class="form-floating">
-                <textarea class="form-control" placeholder="Leave a message here" name="message" id="message" style="height: 150px"></textarea>
-                <label for="message">Message</label>
-            </div>
-        </div>
-        
-        <!-- Submit button -->
-        <div class="col-12">
-            <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
-        </div>
-    </div>
-</form>
-
-                    </div>
+                            <!-- Contact Links -->
+                            <div class="col-12 mt-4 text-center">
+                                <!-- <a href="https://mail.google.com" target="_blank" class="btn btn-light me-2">
+                                    <i class="fab fa-google"></i> Google
+                                </a> -->
+                                <a href="https://www.facebook.com" target="_blank" class="btn btn-light me-2">
+                                    <i class="fab fa-facebook-f"></i> Facebook
+                                </a>
+                                <a href="mailto:info@ninerconstruction.com" class="btn btn-light">
+                                    <i class="fas fa-envelope"></i> Gmail
+                                </a>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
     <!-- Contact End -->
 
     <!-- Footer Start -->
